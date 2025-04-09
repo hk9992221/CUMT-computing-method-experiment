@@ -9,7 +9,7 @@ fpp = @(x) 0.1*exp(x) - 2*cos(2*x);     % f''(x)=0.1e^x - 2cos(2x)
 %% 绘制函数及其导数图像（统一在一张图上显示）
 x = linspace(-10, 3, 400);
 figure;
-plot(x, f(x), 'b-', 'LineWidth', 1.5); hold on;
+plot(x, f(x), 'b-', 'LineWidth', 1.5); hold on ;
 plot(x, fp(x), 'r-', 'LineWidth', 1.5);
 xlabel('x'); ylabel('y');
 title('函数 f(x) 与其导数 f''(x) 图像');
